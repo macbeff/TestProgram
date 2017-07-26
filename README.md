@@ -2,7 +2,7 @@
 #include <iostream> 
  
 
-void doPrint() 
+void question() 
 {
     std::cout << "Is this a question?" << std::endl;
 }
