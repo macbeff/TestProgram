@@ -1,18 +1,18 @@
-//#include "stdafx.h" // Visual Studio users need to uncomment this line
-#include <iostream> // for std::cout and std::endl
+#include "stdafx.h"
+#include <iostream> 
  
-// Definition of function doPrint()
-void doPrint() // doPrint() is the called function in this example
+
+void doPrint() 
 {
-    std::cout << "In doPrint()" << std::endl;
+    std::cout << "Is this a question?" << std::endl;
 }
  
-// Definition of function main()
+
 int main()
 {
-    std::cout << "Starting main()" << std::endl;
-    doPrint(); // Interrupt main() by making a function call to doPrint().  main() is the caller.
-    std::cout << "Ending main()" << std::endl;
+    std::cout << "Is... Is..." << std::endl;
+    doPrint(); 
+    std::cout << "Yes" << std::endl;
  
     return 0;
 }
